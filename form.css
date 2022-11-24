@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(238, 130, 238,0.3);
+    
+
+}
+form{
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 0px;
+    margin-bottom: 400px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 128, 0, 0.3);
+    border-width: 5px;
+    border-color: #d8bfd8;
+    border-style:double;
+    text-align:center;
+    padding:50px;
+}
+img{
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: teal;
+}

@@ -1,0 +1,40 @@
+
+body{
+    background-color: hsl(0, 79%, 72%,0.3);
+    
+
+}
+body img{
+    border-color: crimson;
+    border-style:double;
+    border-end-end-radius: 3px;
+}
+.center img{
+    padding:5px;
+    position: center;
+    border-color:red;
+    border-style: double;
+}
+h1:hover { 
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 
+                 0 3px 0 #ccc, 0 4px 0 #ccc, 
+                 0 5px 0 #ccc, 0 6px 0 #ccc, 
+                 0 7px 0 #ccc, 0 8px 0 #ccc, 
+                 0 9px 0 #ccc, 0 10px 0 #ccc, 
+                 0 11px 0 #ccc, 0 12px 0 #ccc, 
+                 0 20px 30px rgba(0, 0, 0, 0.5); 
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+
+}
+.center  h1{
+    color:rgba(251, 255, 0, 0.836);
+    font-family: fantasy;
+    font-size:100px;
+    font-style: italic;
+    transition:1s;
+}
